@@ -1,3 +1,4 @@
+//1
 // let str = prompt("Напишите слово");
 
 // let glas = "ауоиэыяюеё";
@@ -10,6 +11,10 @@
 // }
 
 // console.log(counter);
+//1вариант
+
+
+//2вариант
 
 let counter = 0;
 
@@ -27,6 +32,8 @@ for (i = 0; i < str.length; i++) {
 
 console.log(counter);
 
+//2
+
 let str1 = prompt("Введите слово");
 let str3 = prompt("Введите букву");
 let counter2 = 0;
@@ -39,12 +46,11 @@ for (i = 0; i < str1.length; i++) {
 
 console.log(counter2);
 
-
-
+//3
 
 let str2 = prompt("Введите слово");
 
-for (let i = str2.length; 0 <= i; i--) {
+for (let i = str2.length - 1; 0 <= i; i--) {
     console.log(str2[i]);
 }
 
